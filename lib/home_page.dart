@@ -12,12 +12,12 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
 
 
-            Padding(padding: EdgeInsets.symmetric(vertical: 10.0), ),
+            Padding(padding: EdgeInsets.symmetric(vertical: 15.0), ),
 
 
             Image.asset(
               'assets/images/errando-proper.png',
-              scale: 1.9,
+              scale: 2.3,
               ),
 
 
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
 
 
             Text(
-              'SIGN IN TO ERRANDO', 
+              'Sign In To Errando',
               style: TextStyle(
                 color: Colors.white, 
                 fontSize:  25.0,
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
               filled: true,
               fillColor: Colors.white,
               hintText: "Username",
-              hintStyle: TextStyle(fontSize: 19),
+              hintStyle: TextStyle(fontSize: 16),
               contentPadding: EdgeInsets.all(17.0),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(40.0),
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
               filled: true,
               fillColor: Colors.white,
               hintText: "Password",
-              hintStyle: TextStyle(fontSize: 19),
+              hintStyle: TextStyle(fontSize: 16),
               contentPadding: EdgeInsets.all(17.0),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(40.0),
@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
             textColor: Colors.white,
             disabledColor: Colors.grey,
             disabledTextColor: Colors.black,
-            padding: EdgeInsets.fromLTRB(125, 15, 125, 15),
+            padding: EdgeInsets.fromLTRB(110, 15, 110, 15),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(50)
             ),
@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
             },
             child: Text(
               "LOGIN",
-              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+              style: TextStyle( fontWeight: FontWeight.bold),
             ),
           ),
 
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
 
           Text('Forgot Password?', style: TextStyle(
             color: Colors.white54,
-            fontSize: 19.0
+            fontSize: 14.0
             ),
             ),
 
@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
 
             Text('Not Registered? Sign Up!', style: TextStyle(
             color: Colors.white54,
-            fontSize: 19.0
+            fontSize: 14.0
             ),
             ),
 
