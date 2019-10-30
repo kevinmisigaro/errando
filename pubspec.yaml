@@ -29,10 +29,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
 flutter_icons:
   android: true
   ios: true
   image_path: "assets/images/errando-proper.png"
+
 
 
 # For information on the generic Dart part of this file, see the
@@ -50,6 +52,9 @@ flutter:
   assets:
     - assets/images/errando-proper.png
     - assets/images/errando-background.png
+    - assets/rival/busy.png
+    - assets/rival/worker.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
